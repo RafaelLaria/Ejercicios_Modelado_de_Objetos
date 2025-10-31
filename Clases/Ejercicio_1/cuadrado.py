@@ -1,7 +1,7 @@
 from figura import Figura
 
 class Cuadrado(Figura):
-    def __init__(self, color,  lado):
+    def __init__(self, color, lado):
         super().__init__(color)
         self.lado = lado
         
