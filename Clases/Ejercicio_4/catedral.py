@@ -1,6 +1,6 @@
 from edificio import Edificio
 class Catedral(Edificio):
-    def __init__(self, lugar, fecha_inicio, fecha_fin, fecha_BIC, material, estilo, nombre = "Catedral de Santiago de Compostela", culto = "Católico", fecha_1consagracion, fecha_2inicio, fecha_2consagracion):
+    def __init__(self, lugar, fecha_inicio, fecha_fin, fecha_BIC, material, estilo, nombre = "Catedral de Santiago de Compostela", culto = "Católico", fecha_1consagracion = "1128", fecha_2inicio = "1168", fecha_2consagracion = "1211"):
         super().__init__(lugar, fecha_inicio, fecha_fin, fecha_BIC, material, estilo)
         self.nombre = nombre
         self.culto = culto
