@@ -1,4 +1,4 @@
-class Edicio:
+class Edificio:
     def __init__(self, lugar, fecha_inicio, fecha_fin, fecha_BIC, material, estilo):
         self.lugar = lugar
         self.fecha_inicio = fecha_inicio
