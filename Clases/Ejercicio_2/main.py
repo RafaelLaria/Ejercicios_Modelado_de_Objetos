@@ -1,15 +1,15 @@
-from kate import Kate
-from guillermo import Guillermo
-from diana import Diana
-from carlos import Carlos
+from kate import Nuera
+from guillermo import Hijo
+from diana import Madre
+from carlos import Padre
 
-padre = Carlos("Carlos", "Windsor", "hombre")
-madre = Diana("Diana", "Windsor", "Spencer", "mujer")
+carlos = Padre("Carlos", "Windsor","", "hombre")
+diana = Madre("Diana", "Windsor", "Spencer", "mujer")
 
-hijo = Guillermo("Guillermo", "Windsor", "hombre")
-mujer_hijo = Kate("Kate", "Windsor", "Middleton", "mujer")
+guillermo = Hijo("Guillermo", "Windsor","", "hombre")
+kate = Nuera("Kate", "Windsor", "Middleton", "mujer")
 
-print(padre)
-print(madre)
-print(hijo)
-print(mujer_hijo)
+print(carlos)
+print(diana)
+print(guillermo)
+print(kate)
