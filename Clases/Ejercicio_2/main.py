@@ -1,4 +1,3 @@
-from persona import Persona
 from kate import Kate
 from guillermo import Guillermo
 from diana import Diana
