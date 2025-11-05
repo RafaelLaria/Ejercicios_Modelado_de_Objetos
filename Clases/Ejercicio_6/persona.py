@@ -10,8 +10,7 @@ class Persona:
             if len(num) == 9:
                 self.numero_identificacion = num
             else:
-                print("El número de identificación debe tener 9 caracteres")
-                break
+                print("ERROR: El número de identificación debe tener 9 caracteres")
     def __str__(self):
         return (f"Nombre y apellidos: {self.nombre} {self.primer_apellido} {self.segundo_apellido}\n"
                 f"Fecha de nacimiento : {self.fecha_nacimiento}\n"
