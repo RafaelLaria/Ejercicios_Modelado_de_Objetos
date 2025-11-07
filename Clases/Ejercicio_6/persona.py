@@ -19,4 +19,11 @@ class Persona:
     def dar_fecha():
         fecha_nacimiento = str(input("Escriba la fecha de nacimiento"))
         return fecha_nacimiento
+    def dar_numero():
+        numero_identificacion = str(input("Escriba el número de identificación"))
+        if len(numero_identificacion) == 9 and numero_identificacion[8] == int:
+            print(numero_identificacion)
+        else:
+            print("ERROR: El número de identificación debe tener exactamente 9 caracteres y la ultima debe ser un número")
+        return True
     
