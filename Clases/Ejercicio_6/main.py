@@ -1,6 +1,6 @@
 from persona import Persona
 
-persona = Persona(nombre, primer_apellido, segundo_apellido, fecha_nacimiento, sexo, numero_identificacion)
+persona = Persona("nombre", "primer_apellido","segundo_apellido", 12, "sexo", "numero_identificacion")
 nombre = persona.dar_nombre()
 primer_apellido, segundo_apellido = persona.dar_apellidos()
 fecha_nacimiento = persona.dar_fecha()

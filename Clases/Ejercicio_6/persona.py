@@ -10,22 +10,22 @@ class Persona:
         return (f"Nombre y apellidos: {self.nombre} {self.primer_apellido} {self.segundo_apellido}\n"
                 f"Fecha de nacimiento : {self.fecha_nacimiento}\n"
                 f"Número de identificación: {self.numero_identificacion}")
-    def dar_nombre():
+    def dar_nombre(self):
         nombre = str(input("Escriba el nombre"))
         return print(nombre)
-    def dar_apellidos():
+    def dar_apellidos(self):
         primer_apellido = str(input("Escriba el primer apellido"))
         segundo_apellido = str(input("Escriba el segundo apellido"))
         return primer_apellido, segundo_apellido
-    def dar_fecha():
+    def dar_fecha(self):
         fecha_nacimiento = str(input("Escriba la fecha de nacimiento"))
         return fecha_nacimiento
-    def dar_sexo():
+    def dar_sexo(self):
         sexo = str(input("Escriba el sexo"))
         return sexo
-    def dar_numero():
+    def dar_numero(self):
         numero_identificacion = str(input("Escriba el número de identificación"))
-        if len(numero_identificacion) == 9 and numero_identificacion[8] == int:
+        if len(numero_identificacion) == 10 and numero_identificacion[9] == int:
             print(numero_identificacion)
         else:
             print("ERROR: El número de identificación debe tener exactamente 9 caracteres y la ultima debe ser un número")
