@@ -16,7 +16,7 @@ class Actuacion:
               '1)Sondeo\n' \
               '2)Excavación\n' \
               '3)Seguimiento')
-        tipo = input('Escoja un tipo de actuación:')
+        tipo = int(input('Escoja un tipo de actuación:'))
         if tipo == 1:
             self.tipo = 'Sondeo'
         elif tipo == 2:
