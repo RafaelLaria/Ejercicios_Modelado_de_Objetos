@@ -4,7 +4,7 @@ class Proyecto():
         self.fecha_inicio = ""
         self.fecha_fin = ""
     def __str__(self):
-        return f'PROYECTO\n' \
+        return 'PROYECTO\n' \
                f'NOMBRE: {self.nombre}\n' \
                f'FECHA DE INICIO: {self.fecha_inicio}\n' \
                f'FECHA DE FINAL: {self.fecha_fin}\n'
