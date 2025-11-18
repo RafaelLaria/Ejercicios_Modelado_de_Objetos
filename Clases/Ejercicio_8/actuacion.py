@@ -13,15 +13,15 @@ class Actuacion:
         self.fecha_fin = input('Fecha de final:')
     def dar_tipo(self):
         print('Tipo de actuación:\n' \
-              '1) Sondeo' \
-              '2) Excavación' \
-              '3) Seguimiento')
-        self.tipo = input('Escoja un tipo de actuación:')
-        if self.tipo == 1:
-            print('Tipo: Sondeo')
-        elif self.tipo == 2:
-            print('Tipo: Excavación')
-        elif self.tipo == 3:
-            print('Tipo: Seguimiento')
+              '1)Sondeo\n' \
+              '2)Excavación\n' \
+              '3)Seguimiento')
+        tipo = input('Escoja un tipo de actuación:')
+        if tipo == 1:
+            self.tipo = 'Sondeo'
+        elif tipo == 2:
+            self.tipo = 'Escavación'
+        elif tipo == 3:
+            self.tipo = 'Seguimiento'
         else:
             print('Escoja una de las tres opciones')
