@@ -26,7 +26,7 @@ class Persona:
         self.sexo = input('Dar sexo:')
     def dar_numero(self):
         self.numero_identificacion = input('Número de identificación:')
-        if len(self.numero_identificacion) == 9 and self.numero_identificacion[9] == str and self.numero_identificacion[0:8] == int:
+        if len(self.numero_identificacion) == 8 and self.numero_identificacion[:7].isdigit() and self.numero_identificacion[-1].isalpha():
             print(self.numero_identificacion)
         else:
             print('El numero de identificación debe tener 8 caracteres, el ultimo siendo una letra')
