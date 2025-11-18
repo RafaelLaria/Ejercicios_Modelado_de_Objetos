@@ -1,10 +1,8 @@
 from persona import Persona
 
 persona = Persona()
-nombre = persona.dar_nombre()
-primer_apellido, segundo_apellido = persona.dar_apellidos()
-fecha_nacimiento = persona.dar_fecha()
-sexo = persona.dar_sexo()
-numero_identificacion = persona.dar_numero()
-
-print(persona)
+persona.dar_nombre()
+persona.dar_apellidos()
+persona.dar_fecha()
+persona.dar_sexo()
+ persona.dar_numero()
