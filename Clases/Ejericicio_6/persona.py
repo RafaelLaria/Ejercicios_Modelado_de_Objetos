@@ -18,7 +18,7 @@ class Persona:
         self.nombre = input('Nombre:')
     def dar_apellido1(self):
         self.primer_apellido = input('Apellido1:')
-    def dar_apellifo2(self):
+    def dar_apellido2(self):
         self.segundo_apellido = input('Apellido2:')
     def dar_fecha(self):
         self.fecha_nacimiento = int(input('Fecha de nacimiento:'))
